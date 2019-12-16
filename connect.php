@@ -5,6 +5,6 @@
     $databasename = "quanlysinhvien";
 
     $con = new mysqli($hostname,$username,$password,$databasename);
-    mysqli_query("SET NAMES 'utf8'");
+    $con->query("SET NAMES 'utf8'");
     
 ?>
